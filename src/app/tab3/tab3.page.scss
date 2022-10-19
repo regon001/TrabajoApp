@@ -1,0 +1,30 @@
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  ion-icon {     
+    padding-top: 10px;
+    padding-left: 100px;
+  }
+
+  ion-card-title{
+    padding-top:10px ;   
+    text-align:center;
+  }
+
+  ion-card-subtitle{
+    padding-top:10px ;   
+    text-align:center;
+  }
+
+  ion-button{
+    padding-top: 10px;
+    --border-color: rgb(207, 224, 24);
+    --border-width: 3px;
+    --color: white;
+    --background: rgb(207, 224, 24);
+    font-size:small ;
+
+  }
